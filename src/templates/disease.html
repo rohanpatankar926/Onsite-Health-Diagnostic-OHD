@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="{{url_for('static', filename='img/disease2page.png')}}">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
 
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 
-</head>
-
-<body>
+    </head>
+    <!--    Section body   -->
+    <body>
     <section id="top-section" class="top-section">
         <div class="bg-color">
             <nav class="navbar navbar-default navbar-fixed-top">
@@ -39,7 +39,6 @@
                                 <li class=""><a href="{{url_for('breastcancer')}}">Breast</a></li>
                                 <li class=""><a href="{{url_for('diabetes')}}">Diabetes</a></li>
                                 <li class=""><a href="{{url_for('heart')}}">Heart</a></li>
-                               
                             </ul>
                         </div>
                     </div>
@@ -95,16 +94,11 @@
                                 with user input</a>
 
                                 <img src="{{url_for('static', filename='img/pneumonia.png')}}" class="img-responsive"
-                                    style=" width:240px;height: 270px;margin-top: 28px;">
-
-                               
+                                    style=" width:240px;height: 270px;margin-top: 28px;">                               
                             </div>
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon"> <i class="fa fa-angle-right"
-                                    aria-hidden="true"></i> </div>
-
-
-                            
+                                    aria-hidden="true"></i> </div>                         
                             <div class="more-features-box-text-description">
                                 <a href="{{url_for('heart')}}">
                                     <h3 style="color: rgb(29, 3, 51);">Heart Failure</h3>
@@ -118,8 +112,7 @@
                                 <a href="{{url_for('heart')}}" style="color: #0cb8b6; padding-top:10px;">Predict with
                                     user input</a>
                                 <img src="{{url_for('static', filename='img/heartdisease.png')}}" class="img-responsive"
-                                    style=" width:170px;height: 210px;margin-top: 28px;">
-                               
+                                    style=" width:170px;height: 210px;margin-top: 28px;">                             
                             </div>
                         </div>
                         <div class="more-features-box-text">
@@ -138,10 +131,7 @@
                                  <a href="{{url_for('breastcancer')}}" style="color: #0cb8b6; padding-top:20px;">Predict
                                         with user input</a>
                                 <img src="{{url_for('static', filename='img/breastcancer.png')}}" class="img-responsive"
-                                    style=" width:180px;height: 180px;margin-top: 28px;">
-
-                                
-
+                                    style=" width:180px;height: 180px;margin-top: 28px;">                               
                             </div>
                         </div>
                         <div class="more-features-box-text">
@@ -160,11 +150,8 @@
                                 <a href="{{url_for('diabetes')}}" style="color: #0cb8b6; padding-top:10px;">Predict with
                                     user input</a>
                                 <img src="{{url_for('static', filename='img/diabetes.png')}}" class="img-responsive"
-                                    style=" width:180px;height: 210px;margin-top: 28px;">
-
-                               
+                                    style=" width:180px;height: 210px;margin-top: 28px;">                           
                             </div>
-
                         </div>
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon"> <i class="fa fa-angle-right"
@@ -184,8 +171,7 @@
                                     style=" width:220px;height: 270px;margin-top: 28px;">
                                
                             </div>
-                        </div>
-                        
+                            </div>
                         </div>
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon"> <i class="fa fa-angle-right"
@@ -204,8 +190,6 @@
                                 <a href="#" style="color: #0cb8b6; padding-top:10px;">Predict with user input</a>
                                 <img src="{{url_for('static', filename='img/brain_tumor.png')}}" class="img-responsive"
                                     style=" width:270px;height: 250px;margin-top: 28px;">
-
-                               
                             </div>
                         </div>
                         <div class="more-features-box-text">
@@ -224,20 +208,16 @@
                                 <a href="" style="color: #0cb8b6; padding-top:10px;">Predict with user input</a>
                                 <img src="{{url_for('static', filename='img/malaria.png')}}" class="img-responsive"
                                     style=" width:170px;height: 210px;margin-top: 28px;">
-                               
                             </div>
                         </div>
-
                         <div class="more-features-box-text">
-
                             <div class="more-features-box-text-description">
                                 <h3 style="color: rgb(122, 9, 9);">ALERT !!</h3>
                                 <p style="color: rgb(122, 9, 9);">
                                     Please, do not use this predictive model without the observation of medical expert.
                                     <br>
-                                    <br>Feel free to try it for educational purpose.
+                                    <br>Feel free to try it for educational purposes.
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -245,11 +225,10 @@
             </div>
         </div>
     </section>
-
+    <!--    Javascript files  -->
     <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
     <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
     <script src="{{url_for('static',filename='js/custom.js')}}"></script>
-
 
 </body>
 
