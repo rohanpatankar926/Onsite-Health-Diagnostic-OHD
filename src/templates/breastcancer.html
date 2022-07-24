@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" href="{{url_for('static', filename='img/disease2page.png')}}">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/font-awesome.min.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/bootstrap.min.css')}}">
-  <link rel="stylesheet" href="{{url_for('static', filename='/css/style.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/font-awesome.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 </head>
-
 <body>
+  <!-- Top section -->
   <section id="top-section" class="top-section">
     <div class="bg-colo">
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -201,7 +200,7 @@
                   </div>
 
                   <div class="res">
-                    <h3 style="color: rgb(12, 10, 39);">{{prediction}}</h3>
+                    <h3 style="color: rgba(6, 58, 82, 0.78);">{{prediction}}</h3>
                   </div>
                 </fieldset>
               </form>
@@ -276,7 +275,7 @@
         </div>
       </div>
   </section>
-
+  <!-- Javascript files -->
   <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
   <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
   <script src="{{url_for('static',filename='js/custom.js')}}"></script>

@@ -1,1 +1,0 @@
-Disease Prediction using Deep Learning and Deployment in Web. 

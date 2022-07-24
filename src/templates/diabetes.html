@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diabetes</title>
+  <title>Diabetes Diagnostic</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" href="{{url_for('static', filename='img/disease2page.png')}}">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/font-awesome.min.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/bootstrap.min.css')}}">
-  <link rel="stylesheet" href="{{url_for('static', filename='/css/style.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/font-awesome.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                 <li class=""><a href="{{url_for('heart')}}">Heart</a></li>
                 <li class=""><a href="{{url_for('breastcancer')}}">Breast</a></li>
                 
-                <li class=""><a href="#">Pneumonia</a></li>
+                <li class=""><a href="{{url_for('pneumonia')}}">Pneumonia</a></li>
               </ul>
             </div>
           </div>
@@ -147,7 +147,7 @@
                     </div>
                     <!-- Prediction Result section -->
                     <div class="res">
-                      <h3 style="color: rgb(12, 10, 39);">{{prediction}}</h3>
+                      <h3 style="color: rgba(6, 58, 82, 0.78);">{{prediction}}</h3>
                     </div>
                   </div>
                 </fieldset>

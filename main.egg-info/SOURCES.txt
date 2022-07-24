@@ -1,0 +1,102 @@
+.gitignore
+Dockerfile
+LICENSE
+Procfile
+README.md
+breast_model.sav
+diabetes.sav
+heart_model.sav
+install.sh
+pneumonia_model.h5
+requirements.txt
+setup.py
+.github/workflows/docs.yml
+docs/.gitignore
+docs/book.toml
+docs/src/README.md
+docs/src/SUMMARY.md
+docs/src/chapter_1.md
+docs/src/disease.png
+docs/src/guide/about.md
+docs/src/guide/demo.md
+docs/src/guide/installation.md
+docs/src/guide/usage.md
+docs/src/guide/use_case.md
+docs/src/misc/developers.md
+docs/src/misc/references.md
+main.egg-info/PKG-INFO
+main.egg-info/SOURCES.txt
+main.egg-info/dependency_links.txt
+main.egg-info/requires.txt
+main.egg-info/top_level.txt
+notebooks/Breast cancer prediction.ipynb
+notebooks/Malaria-Detection-Deep-Learning-CNN.ipynb
+notebooks/Pneumonia detection.ipynb
+notebooks/brain_tumour_classification.ipynb
+notebooks/diabetes prediction.ipynb
+notebooks/heart failure prediction.ipynb
+notebooks/heart.csv
+notebooks/thyroid disease prediction simple ann.ipynb
+notebooks/.ipynb_checkpoints/heart failure prediction-checkpoint.ipynb
+src/model/Breast Cancer/breast_cancer.py
+src/model/Breast Cancer/breast_model.sav
+src/model/Breast Cancer/data.csv
+src/model/Breast Cancer/.ipynb_checkpoints/EDA-Breast cancer prediction-checkpoint.ipynb
+src/model/Diabetes-Detection/diabetes.csv
+src/model/Diabetes-Detection/diabetes.py
+src/model/Diabetes-Detection/.ipynb_checkpoints/diabetes prediction-checkpoint.ipynb
+src/model/Heart-Disease/heart.csv
+src/model/Heart-Disease/heart_disease.py
+src/model/Heart-Disease/heart_model.sav
+src/model/Heart-Disease/.ipynb_checkpoints/heart failure prediction-checkpoint.ipynb
+src/model/Malaria-Detection/malaria.py
+src/model/Malaria-Detection/malaria_model.h5
+src/model/Malaria-Detection/.ipynb_checkpoints/Malaria-Detection-Deep-Learning-CNN-checkpoint.ipynb
+src/model/Pneumonia-Detection/pneumonia_model.h5
+src/model/Pneumonia-Detection/pneunomia_prediction.py
+src/model/Pneumonia-Detection/.ipynb_checkpoints/Malaria-Detection-Deep-Learning-CNN-checkpoint.ipynb
+src/model/Pneumonia-Detection/.ipynb_checkpoints/Pneumonia detection-checkpoint.ipynb
+src/model/brain_tumour_classification/brain_tumour_classification.ipynb
+src/model/thyroid prediction in simple ann/thyroid.h5
+src/model/thyroid prediction in simple ann/thyroid.jpg
+src/model/thyroid prediction in simple ann/thyroid.py
+src/model/thyroid prediction in simple ann/thyroid_data.csv
+src/model/thyroid prediction in simple ann/unprocessed_data.csv
+src/model/thyroid prediction in simple ann/val_loss,acc,loss,val_acc.csv
+src/static/css/bootstrap.min.css
+src/static/css/font-awesome.min.css
+src/static/css/style.css
+src/static/fonts/FontAwesome.otf
+src/static/fonts/fontawesome-webfont.eot
+src/static/fonts/fontawesome-webfont.ttf
+src/static/fonts/fontawesome-webfont.woff
+src/static/fonts/fontawesome-webfont.woff2
+src/static/img/Developerapsara.jpeg
+src/static/img/Developerapsara.png
+src/static/img/Developernishant.jpeg
+src/static/img/Developerrohan.jpg
+src/static/img/Developerrohan.png
+src/static/img/brain_tumor.png
+src/static/img/breastcancer.png
+src/static/img/diabetes.png
+src/static/img/disease2page.png
+src/static/img/flask-logo.png
+src/static/img/heartdisease.png
+src/static/img/logo.png
+src/static/img/malaria.png
+src/static/img/pneumonia.png
+src/static/img/sklearn.png
+src/static/img/tensorflow.jpg
+src/static/img/tfkeras.jpeg
+src/static/img/thyroid.png
+src/static/js/bootstrap.min.js
+src/static/js/custom.js
+src/static/js/jquery.min.js
+src/templates/breastcancer.html
+src/templates/diabetes.html
+src/templates/disease.html
+src/templates/heart.html
+src/templates/index.html
+src/templates/pneumonia.html
+src/templates/thyroid.html
+test/test.py

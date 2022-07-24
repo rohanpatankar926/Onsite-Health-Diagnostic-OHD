@@ -1,23 +1,22 @@
 # Onsite Health Diagnostic (OHD)
 
-<img src="https://github.com/Nix-code/Onsite-Health-Diagnostic-OHD/blob/main/src/static/img/disease2page.png" width="1100" height="500" />
-## Latest release
+<img src="https://github.com/Nix-code/Onsite-Health-Diagnostic-OHD/blob/main/docs/src/disease.png" width="1100" height="500" />
 
-- Demo    :  [Webapp](https://onsitehealth.herokuapp.com/)
+<p>Onsite Health Diagnostic (OHD) is the web application that allows users to predict whether the user has been infected with a menacing disease or not. These diseases can be very dangerous to health if they are not treated properly. The main objective of OHD is to help people predict the disease in case of absence of medical professionals, strikes or any related uncertainties.</p>
 
-Developing a disease predicting web application using the concept of Machine Learning and Deep Learning to make the predictive model for various diseases such as ```Breast Cancer```,```Malaria```, ```Pneumonia```, ```Diabetes```, ```Brain tumour```, ```plant disease``` etc.
+<p> Official Documentation of the project</p>
+
+-  [Documentation](https://nix-code.github.io/Onsite-Health-Diagnostic-OHD/)
+
 ## Table Of Contents
 
--   [Tools](#Tools)
 -   [Datasets](#Datasets)
--   [Directory](#Directory)
--   [Impact](#Impact)
 -   [Clone](#Clone)
 -   [Developers](#Developers)
 -   [Licence](#Licence)
+-   [Note](#Note)
 
-## Tools : 
-- ```Python```, ```Numpy```, ```Pandas```, ```Matplotlib```, ```Seaborn```, ```Scikit-learn```, ```Tensorlow & Keras```, ```Html```, ```Css```, ```JavaScript``` and ```openCV```
+
 
 ## Datasets
  - Pneumonia            :              [Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
@@ -27,45 +26,10 @@ Developing a disease predicting web application using the concept of Machine Lea
  - Breast Cancer        :              [Dataset](https://github.com/Nix-code/Disease-Prediction-and-Deployment/blob/main/src/model/Breast%20Cancer/data.csv)
  - Malaria-Detection    :              - [Dataset](https://lhncbc.nlm.nih.gov/LHC-publications/pubs/MalariaDatasets.html#:~:text=Abstract%3A,the%20Malaria%20Screener%20research%20activity.&text=The%20dataset%20contains%20a%20total,of%20parasitized%20and%20uninfected%20cells.)
 
-
-## Directory
-```
-├── docs
-|    |──about.txt
-├── src
-|    |── static
-|    |      |── css
-|    |      |    
-|    |      |── img
-|    |      |       
-|    |      |── js  
-|
-|    |── model 
-|    |      |── Breast Cancer
-|    |      |── Diabetes
-|    |      |── Heart Disease
-|    |      |── Pneumonia-detection
-|    |      |── brain_tumor_classification
-|    |      |── Malaria-Detection
-|    |      |── thyroid prediction
-|    |
-|    |── templates
-│         ├── index.html
-│         |── heart.html
-|         |── disease.html
-|
-├── app.py
-├── README.md
-└── requirements.txt
-```
-## Impact
-<p> Impact in the real world</p>
-
-We are developing this project which involves the prediction of many diseases based on the user input which consists of facts or ```Radiography images```.  And also we will be providing all the required information about the disease, it's```cause```, ```symptoms``` and its ```prevention``` in the web site. After developing the models, ```UI``` and every documents, the whole project will be deployed on ```Heroku```
 ## Clone
 
 ```
-git clone git@github.com:Nix-code/Disease-Prediction-and-Deployment.git
+git clone git@github.com:Nix-code/Onsite-Health-Diagnostic-OHD.git
 ```
 - To run on your local machine, make sure you have installed every requirements.
 ```
@@ -73,13 +37,26 @@ $ export FLASK_APP=app
 $ flask run
  * Running on http://127.0.0.1:5000/
  ```
+ - If you are in a Linux Distribution
+ ``` $ cd Onsite-Health-Diagnostic-OHD
+     $ python3 app.py
+```
  
 ## Developers
-Rohan Patankar - ```Machine Learning & Deployment```
+[Rohan Patankar](https://github.com/rohanpatankar926) - ```Machine Learning & Deployment```
 
-Apsara Budhathoki - ```Web Design & Development```
+[Apsara Budhathoki](https://github.com/ApsaraBudhathoki) - ```Web Design & Development```
 
-Nishant Banjade - ```Machine Learning & Deployment```
+[Nishant Banjade](https://github.com/Nix-code) - ```Machine Learning & Deployment```
 
 ## Licence
-```MIT```
+
+[MIT Licence](https://github.com/Nix-code/Onsite-Health-Diagnostic-OHD/blob/main/LICENSE)
+
+
+## Note
+Sorry to mention that this is our college project and we are not able to accept any PR except the team members.
+ If you want to contribute , please raise the issue mentioning the bugs. 
+
+As soon as the college project evaluation will be completed, we will accept all the PRs and give credit to every contributor.
+

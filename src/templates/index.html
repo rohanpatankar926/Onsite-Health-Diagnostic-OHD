@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Disease Prediction</title>
+  <title>Onsite Health Diagnostic - OHD</title>
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/font-awesome.min.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/font-awesome.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
   <link rel="icon" href="{{url_for('static', filename='img/disease2page.png')}}">
 
   <!-- Custom css file -->
-  <link rel="stylesheet" href="{{url_for('static',filename='/css/style.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
 
 
 </head>
@@ -95,10 +95,12 @@
               <i class="fa fa-heart"></i>
             </div>
             <div class="icon-info">
-              <a href="{{url_for('heart')}}"><h4>Heart Disease</h4></a>
-              <p>Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels.
-                Cardiovascular diseases are the leading cause of death worldwide except Africa. Together CVD resulted in
-                17.9 million deaths (32.1%) in 2015, up from 12.3 million (25.8%) in 1990.
+              <a href="{{url_for('pneumonia')}}"><h4>Pneumonia Diagnostic</h4></a>
+              <p><p>Pneumonia is an infection that inflames the air sacs in one or both lungs. The air
+                sacs may fill with fluid or pus (purulent material), causing cough with phlegm or
+                pus, fever, chills, and difficulty breathing. A variety of organisms, including
+                bacteria, viruses and fungi, can cause pneumonia.
+            </p>
               </p>
             </div>
           </div>
@@ -113,7 +115,7 @@
                 inflammation. Inflammation can be diagnosed by blood test. Nephrosis is a non-inflammatory kidney
                 disease. Make sure you try our predictive model in order to see your result.
               </p> -->
-              <a href="{{url_for('diabetes')}}"><h4>Diabetes</h4></a>
+              <a href="{{url_for('diabetes')}}"><h4>Diabetes Diagnostic</h4></a>
               <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is
                 too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone
                 made by the pancreas, helps glucose from food get into your cells to be used for energy. Irrespective of age group, diabetes can 
@@ -129,7 +131,7 @@
               <i class="fa fa-user-md"></i>
             </div>
             <div class="icon-info">
-             <a href="{{url_for('breastcancer')}}"><h4>Breast Cancer </h4></a>
+             <a href="{{url_for('breastcancer')}}"><h4>Breast Cancer Diagnostic </h4></a>
               <p>Breast cancer most commonly presents as a lump that feels different from the rest of the breast tissue.
                 More than 80% of cases are discovered when a person detects such a lump with the fingertips.
                 Verify whether you have Malignant or Benign. Our Machine Learning model will try it's best to give the
@@ -142,12 +144,13 @@
               <i class="fa fa-medkit"></i>
             </div>
             <div class="icon-info">
-              <a href="#"><h4>Brain Tumor</h4></a>
+              <a href="{{url_for('heart')}}"><h4>Heart Failure Diagnostic</h4></a>
 
-              <p> A brain tumor occurs when abnormal cells form within the brain There are two main types of tumors:
-                malignant tumors and benign (non-cancerous) tumors. These can be further classified as primary tumors
-                which start within the brain, and secondary tumors, which most commonly have spread from tumors located
-                outside the brain, known as brain metastasis tumors.
+              <p> Together CVD resulted in
+                17.9 million deaths (32.1%) in 2015, up from 12.3 million (25.8%) in 1990.
+                The term “heart disease” refers to several types of heart conditions. In the United
+                States, the most common type of heart disease is coronary artery disease (CAD),
+                which can lead to heart attack.
               </p>
             </div>
           </div>
@@ -219,7 +222,11 @@
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
+
             <!-- <img src="{{url_for('static',filename='img/Developerrohan.jpeg')}}" alt="rohan Patankar" class="team-img"> -->
+
+            <img src="{{url_for('static',filename='img/Developerrohan.jpg')}}" alt="rohan Patankar" class="team-img">
+
             <div class="caption">
               <h3>Rohan Patankar</h3>
               <p>Machine Learning Developer</p>
@@ -227,19 +234,25 @@
                 <li><a href="http://rohanpatankar.netlify.app/"><i class="fa fa-globe"></i></a></li>
                 <li><a href="https://www.linkedin.com/mwlite/in/rohan-patankar-2aa707213"><i
                       class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/ROHANPATAKAR"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://github.com/rohanpatankar926"><i class="fa fa-github"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
+
             <!-- <img src="{{url_for('static',filename='img/Developerapsara.jpeg')}}" alt="Apsara Budhathoki"
               class="team-img"> -->
             <div class="caption">
               <h3>Apsara Budhathoki</h3>
               <p>Web Designer and Developer</p>
              
+            <img src="{{url_for('static',filename='img/Developerapsara.png')}}" alt="Apsara Budhathoki"
+              class="team-img">
+            <div class="caption">
+              <h3>Apsara Budhathoki</h3>
+              <p>Frontend Web developer</p>
               <ul class="list-inline">
                 <li><a href="https://apsarabudhathoki.github.io/apsarabudathoki/"><i class="fa fa-globe"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/apsara-budhathoki-b0884a1b4/"><i
@@ -325,7 +338,7 @@
               <h4 class="white no-padding">About Us</h4>
             </div>
             <div class="info-sec">
-              <p>We are 3rd year engineering students who love to explore new tools & technologies and are highly
+              <p>We are the 3rd year engineering students who love to explore new tools & technologies and are highly
                 enthusiastic towards computer science. OHD (Onsite Health Diagnostic) is an open source project under
                 MIT Licence.</p>
             </div>
@@ -348,9 +361,9 @@
             </div>
             <div class="info-sec">
               <ul class="social-icon">
-                <li class="bglight-blue"><i class="fa fa-github"></i></li>
-                <li class="bgdark-blue"><i class="fa fa-google"></i></li>
-                <li class="bgred"><i class="fa fa-globe"></i></li>
+                <a href="https://github.com" style="color:white;"><li class="bglight-blue"><i class="fa fa-github"></i></li></a>
+                <a href="https://google.com" style="color:white;"><li class="bgdark-blue"><i class="fa fa-google"></i></li></a>
+                  <a href="https://wikipedia.com" style="color:white;"><li class="bgred"><i class="fa fa-globe"></i></li></a>
               </ul>
             </div>
           </div>
